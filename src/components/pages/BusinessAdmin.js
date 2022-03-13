@@ -75,13 +75,7 @@ export default function BusinessAdmin() {
                 
             </table>
 
-            <Link to="/jobpostings">
-                    <button className="primary-button">Old Postings</button>
-                </Link>
-
-
-
-            <div className="buttons text-center">
+                <div className="buttons text-center">
                 <Link to="/thankyou">
                     <button className="primary-button">Submit</button>
                 </Link>
