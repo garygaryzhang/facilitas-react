@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../../App.css'
-import BackgroundImage from '../../assets/images/bg.png'
+
 
 export default function BusinessAdmin() {
     return (
@@ -10,7 +10,7 @@ export default function BusinessAdmin() {
         
         <header style={ HeaderStyle }>
 
-            <p className="main-para text-center">Business Staffing Requirements</p>
+            <p className="h2">Business Staffing Requirements</p>
             <p/>
             <p className='h2'>Welcome Amazing Constructions LLP !!!</p>
 
@@ -34,45 +34,26 @@ export default function BusinessAdmin() {
                     <td><input type="checkbox" id="scales" name="scales" />&nbsp; Daily
                         <input type="checkbox" id="scales" name="scales" checked/>&nbsp; Weekly
                         <input type="checkbox" id="scales" name="scales" />&nbsp; Bi-Weekly</td>
-                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
+                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
                
                 </tr>
                 <tr>
                     <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
                     <td><label for="scales" color="000000">Painter</label></td>
                     <td><input type="checkbox" id="scales" name="scales" checked/>
-                <input type="checkbox" id="scales" name="scales" />
-                <input type="checkbox" id="scales" name="scales" /></td>
-               
-                </tr>
-                <tr>
-                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
-                <td><label for="scales" color="000000">Plumber</label></td>
-                <td><input type="checkbox" id="scales" name="scales" />
-                <input type="checkbox" id="scales" name="scales" checked/>
-                <input type="checkbox" id="scales" name="scales" /></td>
-               
-                </tr>
-                <tr>
-                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
-                    <td><label for="scales" color="000000">Electrician</label></td>
-                    <td><input type="checkbox" id="scales" name="scales" />
-                     <input type="checkbox" id="scales" name="scales" checked/>
+                    <input type="checkbox" id="scales" name="scales" />
                     <input type="checkbox" id="scales" name="scales" /></td>
-               
+                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
+                
                 </tr>
-
                 <tr>
-                
-                <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
-                <td><label for="scales" color="000000">Mason</label></td>
-                <td><input type="checkbox" id="scales" name="scales" />
-                <input type="checkbox" id="scales" name="scales" />
-                <input type="checkbox" id="scales" name="scales" checked/></td>
-                </tr>
-
-
-                
+                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
+                    <td><label for="scales" color="000000">Plumber</label></td>
+                    <td><input type="checkbox" id="scales" name="scales" />
+                    <input type="checkbox" id="scales" name="scales" checked/>
+                    <input type="checkbox" id="scales" name="scales" /></td>
+                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td> 
+                </tr>          
             </table>
 
                 <div className="buttons text-center">
@@ -83,7 +64,6 @@ export default function BusinessAdmin() {
                 </div>
                 
             
-
         </header>
     )
 }
@@ -91,8 +71,7 @@ export default function BusinessAdmin() {
 const HeaderStyle = {
     width: "100%",
     height: "100vh",
-    background: `url(${BackgroundImage})`,
-    backgroundPosition: "center",
+     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
 }
