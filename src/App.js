@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Container, Row, Col } from "react-bootstrap";
 
 import LandingPage from './components/pages/LandingPage'
 import LoginPage from './components/pages/LoginPage'
@@ -10,6 +11,7 @@ import BusinessAdmin from './components/pages/BusinessAdmin'
 import JobPosting from './components/pages/JobPosting'
 import ThankYou from './components/pages/ThankYou'
 import './App.css'
+import logo from './assets/images/logo.jpg'
 
 export default function App() {
     return (
@@ -33,7 +35,11 @@ export default function App() {
 
 const Footer = () => {
     return (
-        <p className="text-center" style={ FooterStyle }>Designed & coded by FACILITAS Team</p>
+        <Container fluid className="footer">
+             <Row>
+                <p className="text-center" style={ FooterStyle }>#HackTN</p>
+             </Row>
+        </Container>
     )
 }
 
