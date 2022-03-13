@@ -10,7 +10,7 @@ export default function SignInPage() {
             <form action="/home">
                 <p>
                     <label>Username or email address</label><br/>
-                    <input type="text" name="first_name" required />
+                    <input type="text" name="first_name" id="username" required />
                 </p>
                 <p>
                     <label>Password</label>

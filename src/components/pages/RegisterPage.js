@@ -23,6 +23,11 @@ export default function SignUpPage() {
                     <input type="password" name="password" requiredc />
                 </p>
                 <p>
+                <label>Personal type</label><br/>
+                    <input type="radio" name="radio" id="radio" value="HTML"/><span for="html"> Trustie</span><br/>
+                    <input type="radio" name="radio" id="radio" value="CSS"/><span for="html"> Hiring Company</span>
+                </p>
+                <p>
                     <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer">terms of service</a></span>.
                 </p>
                 <p>
