@@ -23,36 +23,48 @@ export default function BusinessAdmin() {
             <p className="main-para text-center"></p>
             <table border="1" className="table">
                 <tr border ="2" >
-                    <th className="th"> Number of Positions </th>
-                    <th>Job Type </th>
-                    <th className='th'>Payment Schedule </th>
+                    <th className="th">JobID</th>
+                    <th>Job Type </th>                    
                     <th>Job Description (ifAny) </th>
+                    <th className="th"> Number of Positions </th>
+                    <th className='th'>Payment Schedule </th>
+
                 </tr>
                 <tr>
-                    <td><input type="text" className = "input1" size = "5" id="scales" name="noofpositions" ></input> </td>
+                    <td>C0045</td>
                     <td><label for="scales" color="000000">Carpenter</label></td>
-                    <td><input type="checkbox" id="scales" name="scales" />&nbsp; Daily
-                        <input type="checkbox" id="scales" name="scales" checked/>&nbsp; Weekly
-                        <input type="checkbox" id="scales" name="scales" />&nbsp; Bi-Weekly</td>
-                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
+                    <td><input type="text" size = "100" id="scales" name="description" className="Input1" ></input> </td>
+                    <td><input type="text" className = "input1" size = "5" id="scales" name="noofpositions" ></input> </td>
+                    <td><input type="checkbox" id="scales" name="scales" /> Daily
+                        <input type="checkbox" id="scales" name="scales" checked/>Weekly
+                        <input type="checkbox" id="scales" name="scales" />Bi-Weekly
+                    </td>
+                    
                
                 </tr>
                 <tr>
-                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
+                    <td>P0049</td>
                     <td><label for="scales" color="000000">Painter</label></td>
+                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
+                
+                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
                     <td><input type="checkbox" id="scales" name="scales" checked/>
                     <input type="checkbox" id="scales" name="scales" />
                     <input type="checkbox" id="scales" name="scales" /></td>
-                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
-                
+                    
                 </tr>
                 <tr>
-                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
+
+                <td>PL059</td>
                     <td><label for="scales" color="000000">Plumber</label></td>
+                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td>
+                
+                    <td><input type="text" size = "200" id="scales" name="scales" ></input> </td>
+                    
                     <td><input type="checkbox" id="scales" name="scales" />
                     <input type="checkbox" id="scales" name="scales" checked/>
                     <input type="checkbox" id="scales" name="scales" /></td>
-                    <td><input type="text" size = "100" id="scales" name="description" ></input> </td> 
+                    
                 </tr>          
             </table>
 
