@@ -24,7 +24,9 @@ export default function SignInPage() {
             </form>
             <footer>
                 <p>First time? <Link to="/register">Create an account</Link>.</p>
+                <p>Bussiness? <Link to="/business">Create an account</Link>.</p>
                 <p><Link to="/">Back to Homepage</Link>.</p>
+
             </footer>
         </div>
     )
