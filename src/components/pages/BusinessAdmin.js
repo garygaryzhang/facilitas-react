@@ -2,7 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../../App.css'
+<<<<<<< HEAD
 
+=======
+import BackgroundImage from '../../assets/images/bg.jpg'
+>>>>>>> 4834053e3554b8a1cbff0725b66d71b94b9a00a2
 
 export default function BusinessAdmin() {
     return (
@@ -83,7 +87,11 @@ export default function BusinessAdmin() {
 const HeaderStyle = {
     width: "100%",
     height: "100vh",
+<<<<<<< HEAD
      backgroundPosition: "center",
+=======
+    backgroundPosition: "center",
+>>>>>>> 4834053e3554b8a1cbff0725b66d71b94b9a00a2
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
 }
