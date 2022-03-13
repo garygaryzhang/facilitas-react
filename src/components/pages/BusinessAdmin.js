@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../../App.css'
-import BackgroundImage from '../../assets/images/bg.png'
+import BackgroundImage from '../../assets/images/bg.jpg'
 
 export default function BusinessAdmin() {
     return (
@@ -91,7 +91,6 @@ export default function BusinessAdmin() {
 const HeaderStyle = {
     width: "100%",
     height: "100vh",
-    background: `url(${BackgroundImage})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
