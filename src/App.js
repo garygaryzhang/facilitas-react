@@ -6,7 +6,9 @@ import LoginPage from './components/pages/LoginPage'
 import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
-
+import BusinessAdmin from './components/pages/BusinessAdmin'
+import JobPosting from './components/pages/JobPosting'
+import ThankYou from './components/pages/ThankYou'
 import './App.css'
 
 export default function App() {
@@ -19,6 +21,9 @@ export default function App() {
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
+                    <Route path="/business" component={ BusinessAdmin } />
+                    <Route path="/jobpostings" component={ JobPosting } />
+                    <Route path="/thankyou" component={ ThankYou } />
                 </Switch>
                 <Footer />
             </div>
@@ -28,7 +33,7 @@ export default function App() {
 
 const Footer = () => {
     return (
-        <p className="text-center" style={ FooterStyle }>Designed & coded by <a href="https://izemspot.netlify.com" target="_blank" rel="noopener noreferrer">IZEMSPOT</a></p>
+        <p className="text-center" style={ FooterStyle }>Designed & coded by FACILITAS Team</p>
     )
 }
 
